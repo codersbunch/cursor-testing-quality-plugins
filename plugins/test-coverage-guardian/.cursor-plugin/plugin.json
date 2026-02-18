@@ -1,0 +1,13 @@
+{
+  "name": "test-coverage-guardian",
+  "displayName": "Test Coverage Guardian",
+  "version": "1.0.0",
+  "description": "Generate unit, integration, and e2e tests. Enforce coverage thresholds and identify untested code paths.",
+  "author": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "license": "MIT",
+  "keywords": ["testing", "coverage", "unit-tests", "integration-tests", "e2e", "jest", "pytest"],
+  "logo": "assets/logo.svg"
+}

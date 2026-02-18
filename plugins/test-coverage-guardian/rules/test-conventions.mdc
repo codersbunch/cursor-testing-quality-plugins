@@ -1,0 +1,16 @@
+---
+description: Test naming conventions and minimum coverage thresholds
+alwaysApply: true
+---
+
+test-conventions:
+
+- Test file names must mirror source files: `user.service.ts` → `user.service.test.ts`
+- Test names must follow: `describe('ClassName') > it('should [behavior] when [condition]')`
+- Minimum coverage thresholds: statements 80%, branches 75%, functions 80%, lines 80%
+- Each public function must have at least one happy path and one error path test
+- Mock all external dependencies (DB, HTTP, filesystem) in unit tests
+- Integration tests must use a real test database, never mock the DB layer
+- Never use `test.only` or `describe.only` in committed code
+- Group related tests with `describe` blocks, not flat `it` blocks
+- Use `beforeEach`/`afterEach` for setup/teardown, never share mutable state between tests

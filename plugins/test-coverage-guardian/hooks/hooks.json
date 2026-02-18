@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "command": "./scripts/generate-test-stub.sh",
+        "matcher": "src/",
+        "description": "Auto-generate test stub when a new source file is created or edited"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "./scripts/coverage-summary.sh",
+        "description": "Print coverage summary at end of session"
+      }
+    ]
+  }
+}

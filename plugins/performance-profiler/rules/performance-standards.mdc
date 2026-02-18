@@ -1,0 +1,16 @@
+---
+description: Performance standards and anti-patterns to avoid in application code
+alwaysApply: true
+---
+
+performance-standards:
+
+- Never execute database queries inside loops - use batch queries or JOINs
+- Paginate all list endpoints - never return unbounded result sets
+- Cache expensive computations and repeated external API calls
+- Use database indexes for all columns used in WHERE, JOIN, and ORDER BY clauses
+- Avoid synchronous blocking operations in async/event-loop code
+- Profile before optimizing - measure first, then fix the actual bottleneck
+- Use connection pooling for all database and HTTP connections
+- Lazy-load heavy resources - don't load what you don't need upfront
+- Set timeouts on all external calls (HTTP, DB, cache)

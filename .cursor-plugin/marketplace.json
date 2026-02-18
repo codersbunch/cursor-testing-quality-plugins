@@ -1,0 +1,24 @@
+{
+  "name": "testing-quality-plugins",
+  "owner": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "metadata": {
+    "description": "Testing and quality plugins for Cursor: Test Coverage Guardian and Performance Profiler",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "test-coverage-guardian",
+      "source": "./plugins/test-coverage-guardian",
+      "description": "Generate unit/integration/e2e tests and enforce coverage thresholds"
+    },
+    {
+      "name": "performance-profiler",
+      "source": "./plugins/performance-profiler",
+      "description": "Identify N+1 queries, memory leaks, and inefficient algorithms"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "performance-profiler",
+  "displayName": "Performance Profiler",
+  "version": "1.0.0",
+  "description": "Identify N+1 queries, memory leaks, and inefficient algorithms. Integrates with Datadog and New Relic.",
+  "author": {
+    "name": "CodersBunch",
+    "email": "praveen@codersbunch.com"
+  },
+  "license": "MIT",
+  "keywords": ["performance", "profiling", "n+1", "memory-leaks", "optimization", "benchmarks"],
+  "logo": "assets/logo.svg"
+}
