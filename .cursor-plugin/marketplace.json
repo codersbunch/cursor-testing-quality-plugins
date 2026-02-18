@@ -1,8 +1,8 @@
 {
   "name": "testing-quality-plugins",
   "owner": {
-    "name": "CodersBunch",
-    "email": "praveen@codersbunch.com"
+    "name": "CoderBunch",
+    "email": "praveen@coderbunch.com"
   },
   "metadata": {
     "description": "Testing and quality plugins for Cursor: Test Coverage Guardian and Performance Profiler",

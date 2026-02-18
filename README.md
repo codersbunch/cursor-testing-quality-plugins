@@ -11,7 +11,7 @@ Generate unit/integration/e2e tests, enforce coverage thresholds, auto-generate 
 Identify N+1 queries, memory leaks, and inefficient algorithms. Integrates with Datadog/New Relic via MCP.
 
 ## Author
-Praveen · praveen@codersbunch.com
+Praveen · praveen@coderbunch.com
 
 ## License
 MIT
